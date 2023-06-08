@@ -1,0 +1,231 @@
+.App {
+  font-weight: 400;
+  font-family: sans-serif;
+  color:white;
+  background-color: #121212;
+  overflow: hidden;
+}
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.link{
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (min-width:991px) {
+  .text{
+    display:none;
+  }
+}
+
+@media (max-width:992px) {
+  .text{
+    display:inline;
+    color:white;
+  }
+}
+
+.cover {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 600px;
+  padding-top: 200px;
+}
+
+.coverName {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.coverDescription {
+  font-size: 25px;
+  text-align: center;
+  animation: slideinLeft 3s;
+
+}
+
+.coverPhoto {
+  animation: slideinRight 3s;
+
+}
+
+.flip {
+  height: 60px;
+  overflow: hidden;
+}
+
+.flip>div>div {
+  color: #0d6efd;
+  padding: 5px 15px;
+  height: 55px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+.flip div:first-child {
+  animation: show 5s linear infinite;
+  animation-delay: 3.5s;
+}
+
+.about {
+  font-size: 50px;
+  text-align: center;
+}
+
+.aboutAll {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 400px;
+}
+
+.aboutDescription {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.skills {
+  font-size: 50px;
+  text-align: center;
+}
+
+.skillsAll {
+  margin-bottom: 400px;
+  overflow: hidden;
+}
+
+.skillNames {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+
+.skillIcons {
+  font-size: 50px;
+  transition: transform .75s;
+  /* Animation */
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.skillIcons:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.heading{
+  font-size: 35px;
+  text-align: center;
+}
+
+.projects {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projectCards {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.projectCardsBody {
+  text-align: center;
+}
+
+.projectSlide {
+  animation-duration: 2s;
+  animation-name: slidein;
+  overflow: hidden;
+}
+
+@keyframes slideinLeft {
+  0% {
+    transform: translate(-200px, 0px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(50px, 0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideinRight {
+  0% {
+    transform: translate(200px, 0px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-50px, 0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate(0px, 200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+
+  5% {
+    margin-top: -180px;
+  }
+
+  33% {
+    margin-top: -180px;
+  }
+
+  38% {
+    margin-top: -90px;
+  }
+
+  66% {
+    margin-top: -90px;
+  }
+
+  71% {
+    margin-top: 0px;
+  }
+
+  99.99% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: -270px;
+  }
+}
