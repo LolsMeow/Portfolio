@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2ffd8b02.css",
+    "main.js": "/portfolio/static/js/main.7d6667c1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/nutritionx.png": "/portfolio/static/media/nutritionx.443e7a919af2e58834c9.png",
+    "static/media/cedus.png": "/portfolio/static/media/cedus.602f1acba1e46561fc66.png",
+    "static/media/Jiaming_Zheng_Resume.pdf": "/portfolio/static/media/Jiaming_Zheng_Resume.8418f75897e0eb01bdfc.pdf",
+    "static/media/signature.gif": "/portfolio/static/media/signature.02f18ae4a2976b7aa6c3.gif",
+    "static/media/CoverPicture2.svg": "/portfolio/static/media/CoverPicture2.547de77a967cfe1ace9a05d27c29f809.svg",
+    "static/media/CoverPicture.svg": "/portfolio/static/media/CoverPicture.a848b0c4686eac31031d3534d2907d3e.svg",
+    "index.html": "/portfolio/index.html",
+    "main.2ffd8b02.css.map": "/portfolio/static/css/main.2ffd8b02.css.map",
+    "main.7d6667c1.js.map": "/portfolio/static/js/main.7d6667c1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ffd8b02.css",
+    "static/js/main.7d6667c1.js"
+  ]
+}
